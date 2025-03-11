@@ -13,13 +13,14 @@ function Favorites() {
         </div>
       </div>
     );
-  } else
-    return (
-      <div className="">
-        <h2>No Favorites Yet</h2>
-        <p> Movies you add to favorite will show up here </p>
-      </div>
-    );
+  }
+
+  return (
+    <div className="">
+      <h2>No Favorites Yet</h2>
+      <p> Movies you add to favorite will show up here </p>
+    </div>
+  );
 }
 
 export default Favorites;
