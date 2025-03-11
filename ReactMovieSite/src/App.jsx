@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </main>
